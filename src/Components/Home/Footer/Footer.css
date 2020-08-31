@@ -1,0 +1,197 @@
+.Footer {
+    width: 100% !important;
+    height: 519px !important;
+}
+
+.FooterIn {
+    width: 90% !important;
+    height: 519px;
+}
+.worldImage {
+    background: url('../../../assets/img/word_map.png') 50% no-repeat !important;
+    height: 519px !important;
+}
+
+.FooterFirstBox {
+    margin-bottom: 30px;
+    /* margin-left: 292.5px; */
+    
+}
+
+.navy-line {
+    width: 60px;
+    height: 1px;
+    margin: 60px auto 0;
+    border-bottom: 2px solid #1ab394;
+}
+
+.Contact {
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 200;
+    margin-bottom: 10px;
+    color:rgb(103, 106, 108);
+    line-height:33px;
+}
+
+.ContactP {
+    color: #aeaeae;
+    font-size: 13px;
+    
+}
+
+.FooterSecondBox {
+    margin-bottom: 30px;
+    padding: auto !important;
+    align-items: center !important;
+    /* margin-top: -3px !important ; */
+    /* margin-left: 292.5px !important; */
+}
+
+.addressCap {
+    margin-left: 292.5px;
+}
+
+@media (max-width: 499px) {
+    .addressCap {
+        margin-left: 0px;
+    }
+}
+.CompanyName {
+    color: #1ab394;
+    /* font-weight: 700; */
+    font-size: 13px;
+    font-style: normal;
+    line-height: 1.42857143 !important;
+    margin-bottom: 20px !important;
+}
+
+.CenterAlign {
+    align-items: center !important;
+    padding: 0 !important;
+}
+
+.CompanyAddress {
+    font-size: 13px;
+    margin-bottom: 20px;
+    font-style: normal;
+    line-height: 1.42857143;
+    box-sizing: border-box;
+    color: #676a6c;
+}
+
+@media (max-width: 499px) {
+    .CompanyAddress {
+        width: 410px;
+        height: 72px;
+        text-align: left;
+    }
+}
+
+
+.FooterDescription  {
+    width: 360px;
+    height: 72px;
+    color: #676a6c;
+    font-size: 13px;
+    box-sizing: border-box;
+    margin-bottom: 10px !important;
+}
+
+@media (max-width: 499px) {
+    .FooterDescription {
+        width: 410px;
+        height: 72px;
+    }
+}
+
+.emailBtn {
+    background-color: #1ab394 !important;
+    border-color: #1ab394 !important;
+    color: #FFFFFF !important;
+    font-size: 14px !important;
+    padding: 10px 20px !important;
+    font-weight: 600 !important;
+    line-height: 1.42857143 !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+    vertical-align: middle !important;
+}
+
+.follow {
+    color: #aeaeae;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.social-icon {
+    width: 100%;
+    height: 28px !important;
+    margin-bottom: 10px !important;
+    /* text-align: center !important;
+    align-items: center !important; */
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-wrap:       wrap;
+    justify-content: center;
+}
+
+.icon {
+    background: #1ab394;
+    height: 28px !important;
+    width: 28px !important;
+    text-align: center;
+    border-radius: 50px;
+    padding: 6px 4px;
+    float: left;
+    margin-left: 10px;
+    font-size: inherit;
+    color: #fff !important;
+    font: normal normal normal 14px/1 FontAwesome;
+}
+
+.LastLine {
+    width: 750px;
+    height: 46px;
+    text-align: center !important;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto !important;
+    margin: 0px;
+    display: inline-block !important;
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+}
+
+@media (max-width: 499px) {
+    .LastLine {
+        width: 410px !important;
+        height: 54px !important;
+    }
+}
+
+.CName {
+    margin: 0 auto !important;
+    color: #aeaeae;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.LastDes {
+    width: 750px;
+    color: #aeaeae;
+    font-size: 13px;
+    line-height: 1.42857143;
+}
+
+@media (max-width: 499px) {
+    .LastDes {
+        width: 410px !important;
+    }
+}

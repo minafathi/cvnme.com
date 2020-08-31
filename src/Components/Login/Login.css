@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+
+body {
+    background-color: #f3f3f4 !important;
+    font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@media (max-width: 499px) {
+    body {
+        align-items: center !important;
+    }
+}
+.Login {
+    width: 805px;
+    height: 317px;
+    margin: 0 auto !important;
+    margin-top: 100px !important;
+    animation: fadeInDown ease 2s;
+
+}
+
+@media (max-width: 499px) {
+    .Login {
+        width: 402px;
+        padding: 0px 0px 0px 0px  !important;
+        margin: 0 auto !important;
+        margin-top: 100px !important;
+    }
+}
+
+
+@keyframes fadeInDown {
+    0% {
+       opacity: 0;
+       transform: translateY(-50px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateY(0);
+    }
+ } 
+
+
+
+
+.Welcome {
+    width: 395px !important;
+    font-size: 13px !important;
+    background-color: #f3f3f4 !important;
+    height: auto;
+    margin: 0 auto !important;
+    text-align: left;
+    padding: 0 15px 0 15px;
+    font-size: 13px !important;
+    color: #676a6c;
+    line-height: 1.42857143;
+}
+
+@media (max-width: 499px) {
+    .Welcome {
+        width: 379px;
+        height: 265px !important;
+        padding: 0px;
+    }
+}
+
+.LoginBox {
+    width: 372px !important;
+    height: auto;
+    color: inherit;
+    padding: 0 15px 0 15px !important;
+}
+
+@media (max-width: 499px) {
+    .LoginBox {
+        margin: 0 auto !important;
+        padding: 0px 20px 15px 20px !important;
+        margin-top: 0px;
+        background-color: #ffffff;
+    }
+}

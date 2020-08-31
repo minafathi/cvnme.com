@@ -1,0 +1,124 @@
+.two {
+    background: url('../../../../../assets/img/header_two.jpg') 50% 0 no-repeat  fixed !important;
+    direction: rtl !important;
+    width: 100% !important;
+    height: 470px;
+    z-index: 190;
+}
+
+@media(max-width: 499px) {
+    .two {
+        width: 100% !important;
+    }
+}
+
+.secondCaption {
+    width: 466.5px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    position: relative;
+    /* right: 930px !important; */
+    right: 57.5%;
+    text-transform: uppercase;
+    text-align: ltr !important;
+    direction: ltr;
+}
+
+
+@media(max-width: 1300px) {
+    .secondCaption {
+        right: 580px !important;
+    }
+}
+
+@media(max-width: 499px) {
+    .secondCaption {
+        width: 365.8px !important;
+        height: 258px;
+        margin: 0 auto !important;
+        padding-bottom: 20px;
+        margin: 0 auto !important;
+        right: 0px !important;
+        display: inline-block;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-left: 22px !important;
+        
+    }
+}
+
+.secbox {
+    width: 100% !important;
+    min-height: 150px !important;
+    max-height: 150px !important;
+}
+
+@media(max-width: 499px) {
+    .secbox {
+        height: 80px !important;
+    }
+}
+
+.secondH1 {
+    z-index: 210;
+    left: 0 !important;
+    color:rgb(255, 255, 255);
+    display:block;
+    font-size:38px;
+    font-weight:700;
+    letter-spacing:-1.5px;
+    line-height:41.8px;
+    display: inline-block;
+}
+
+@media(max-width: 499px) {
+    .secondH1 {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 30.8px !important;
+        font-size: 28px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 0px !important;
+    }
+}
+.secondP {
+    width: 466.5px !important;
+    height: 19px !important;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height:19.6px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: none;
+    margin-bottom: 20px !important;
+    box-sizing: border-box;
+    text-align: left;
+    color: #fff;
+}
+
+@media(max-width: 499px) {
+    .secondP {
+        width: 418px !important;
+        height: 36px !important;
+        font-size: 13px;
+        font-weight: 700;
+        line-height:18.5714px;
+        margin-bottom: 10px !important;
+    }
+}
+
+.secondCapBtn {
+    width: 131px !important;
+    height: 40px !important;
+    background-color:rgb(26, 179, 148) !important;
+    border-color: rgb(26, 179, 148) !important;
+    color:rgb(255, 255, 255) !important;
+    padding: 10px 20px 10px 20px !important;
+    text-transform: uppercase;
+    font-weight: 600 !important;
+    display: inline-block !important;
+    line-height:18.6667px !important;
+    font-size: 14px !important;
+}

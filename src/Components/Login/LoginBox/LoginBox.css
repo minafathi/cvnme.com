@@ -11,7 +11,7 @@
 
 @media (max-width: 499px) {
   .LoginBoxIn {
-    width: 332px;
+    width: 100%;
     margin: 0 auto;
     padding: 15px 0px 0px 0px;
   }
@@ -40,7 +40,7 @@
 
 @media (max-width: 499px) {
   .form-control {
-    width: 332px !important;
+    width: 100% !important;
   }
 }
 

@@ -48,6 +48,7 @@ const footer = (props) => {
                         <div className="row LastLine">
                                 <strong className="CName">&copy; 2015 Company Name</strong><br/><div className="LastDes">consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</div>
                         </div>
+                        <div className="lastbox"></div>
                     </div>
                 </div>
             </div>

@@ -29,18 +29,20 @@
 @media(max-width: 1300px) {
     .secondCaption {
         right: 580px !important;
+        
     }
 }
 
 @media(max-width: 499px) {
     .secondCaption {
-        width: 365.8px !important;
+        width: 95%;
+        display: inline-block !important;
         height: 258px;
+        top: -68px;
         margin: 0 auto !important;
         padding-bottom: 20px;
         margin: 0 auto !important;
         right: 0px !important;
-        display: inline-block;
         padding-top: 20px;
         padding-bottom: 20px;
         margin-left: 22px !important;
@@ -100,7 +102,7 @@
 
 @media(max-width: 499px) {
     .secondP {
-        width: 418px !important;
+        width: 95% !important;
         height: 36px !important;
         font-size: 13px;
         font-weight: 700;

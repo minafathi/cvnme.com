@@ -85,7 +85,7 @@
 
 @media (max-width: 499px) {
     .circles {
-        left: 180px !important;
+        left: 40% !important;
         top: 435px !important;
     }
 }
